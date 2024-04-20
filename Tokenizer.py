@@ -83,4 +83,4 @@ class Tokenizer:
         elif isinstance(input, list):
             return self.decode(input, drop_start_end=True)
         return None
-        
+
